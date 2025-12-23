@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Bidirectional A* with Landmarks and Triangle Inequality (ALT) Algorithm: Research-Grade Implementation"
+message: "If you use this software, please cite it using the information below."
+type: software
+authors:
+  - family-names: George
+    given-names: Collin B.
+    orcid: "https://orcid.org/0009-0007-8162-6839"
+    affiliation: "University of Washington"
+version: "1.0"
+date-released: "2025-01-01"
+license: "MIT"
+repository-code: "https://github.com/collingeorge/bidirectional-alt"
+abstract: >
+  Research-grade implementation of bidirectional A* search enhanced with landmarks
+  and triangle inequality preprocessing (ALT) for shortest path problems. Achieves
+  up to 8× speedup vs. Dijkstra on structured graphs (grids, road networks) with
+  statistical validation across 30 trials per configuration. Tested on five graph
+  types up to ~10,000 nodes. Educational software project demonstrating algorithm
+  design, implementation, and rigorous experimental validation methodology.
+keywords:
+  - shortest path
+  - graph algorithms
+  - A* search
+  - bidirectional search
+  - landmarks
+  - triangle inequality
+  - algorithm design
+  - performance analysis
+  - statistical validation
+  - Python
+  - educational software
